@@ -84,12 +84,6 @@ fieldset{
   .button:hover {
     background-color: #e7e7e7;
 }
-.watterlen{
-    /* make watterlen font */
-}
-h6{
-    /* Make font the yoshi */
-} 
 li{
     display:inline-block
 }
@@ -107,11 +101,15 @@ li{
 .indent {
     text-indent:20px;
 }
-
-
-
-
-
+i { 
+    transition: transform 0.2s; 
+}
+a:hover { 
+    transform: scale(0.95); 
+}
+i:hover { 
+    transform: scale(0.95); 
+}
 
 
 
@@ -119,10 +117,17 @@ li{
     .font{
         margin-left:20px;
     }
+    .box{
+        margin-left:30px;
+    }
+    .centered {
+        width:400px;
+    }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:550px){
     .mailing-list{
         width:300px
     }
+
 }
