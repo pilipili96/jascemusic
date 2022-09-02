@@ -2,28 +2,7 @@
     text-align:center;
 }
 .icon-color{
-    color:rgb(29,218,99)
-}
-.icon-color1{
-    color:lightskyblue
-}
-.icon-color2{
-    color:red;
-}
-.icon-color3{
-    color:black;
-}
-.icon-color4{
-    color:RGB(193, 53, 132)
-}
-.icon-color5{
-    color:rgb(206, 121, 228)
-}
-.icon-color6{
-    color:rgb(211, 145, 24);
-}
-.icon-color7{
-    color: rgb(177, 177, 65);  
+    color:rgb(60, 77, 66)
 }
 .icon-margin{
     margin:10px;
@@ -33,11 +12,11 @@ i.fa-2x {
     border-radius: 75px;
     padding: 0.3em 0.3em;
     background-color: rgb(250, 242, 242);  
+    opacity:60%;
 }
 .centered {
     width:500px;
     padding-top:400px;
-    /* Make font-watterlen */
 }
 .footer-image{
     width:350px;
@@ -119,6 +98,7 @@ i:hover {
     }
     .box{
         margin-left:30px;
+        width:50%
     }
     .centered {
         width:400px;
@@ -128,6 +108,13 @@ i:hover {
 @media screen and (max-width:550px){
     .mailing-list{
         width:300px
+    }
+    .centered {
+        width:350px;
+    }
+    .box{
+        margin-left:25px;
+        width:75%
     }
 
 }
