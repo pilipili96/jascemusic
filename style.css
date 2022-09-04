@@ -2,7 +2,7 @@
     text-align:center;
 }
 .icon-color{
-    color:rgb(60, 77, 66)
+    color:rgb(105,125,138)
 }
 .icon-margin{
     margin:10px;
@@ -12,7 +12,7 @@ i.fa-2x {
     border-radius: 75px;
     padding: 0.3em 0.3em;
     background-color: rgb(250, 242, 242);  
-    opacity:60%;
+    opacity:70%;
 }
 .centered {
     width:500px;
@@ -69,6 +69,7 @@ li{
 .bottle{
     width:250px;
     padding:20px;
+    margin-top:-200px;
 }
 .container{
     display:flex;
@@ -103,6 +104,10 @@ i:hover {
     .centered {
         width:400px;
     }
+    .bottle{
+
+        margin-top:-50px;
+    }
 }
 
 @media screen and (max-width:550px){
@@ -116,5 +121,19 @@ i:hover {
         margin-left:25px;
         width:75%
     }
-
+    col{
+        width:30%;
+    }
+    .width{
+        width:40%;
+        margin-left:-100px;
+    }
+    .right{
+        margin-right:100px;
+    }
+    .footer-image{
+        width:300px;
+        margin-left: 50px;
+        margin-bottom:20px;
+    }
 }
