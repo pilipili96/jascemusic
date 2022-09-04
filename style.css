@@ -126,15 +126,16 @@ i:hover {
         width:30%;
     }
     .width{
-        width:40%;
-        margin-left:-100px;
+        width:40%; 
     }
     .right{
-        margin-right:100px;
+        margin-right:px;
     }
     .footer-image{
         width:300px;
         margin-left: 50px;
         margin-bottom:20px;
     }
+
+
 }
