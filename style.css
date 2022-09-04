@@ -29,6 +29,7 @@ i.fa-2x {
 }
 .background1{
     background-color: rgb(227,232,234);
+    padding-bottom:35px;
 }
 .box{
     display:inline-block;
@@ -69,7 +70,7 @@ li{
 .bottle{
     width:250px;
     padding:20px;
-    margin-top:-200px;
+    margin-top:-175px;
 }
 .container{
     display:flex;
