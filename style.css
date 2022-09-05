@@ -92,8 +92,6 @@ i:hover {
     transform: scale(0.95); 
 }
 
-
-
 @media screen and (max-width:915px){
     .font{
         margin-left:20px;
@@ -136,6 +134,4 @@ i:hover {
         margin-left: 50px;
         margin-bottom:20px;
     }
-
-
 }
