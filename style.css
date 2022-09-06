@@ -2,7 +2,7 @@
     text-align:center;
 }
 .icon-color{
-    color:rgb(105,125,138)
+    color:rgb(237, 240, 241)
 }
 .icon-margin{
     margin:10px;
@@ -11,8 +11,8 @@ i.fa-2x {
     display: inline-block;
     border-radius: 75px;
     padding: 0.3em 0.3em;
-    background-color: rgb(250, 242, 242);  
-    opacity:70%;
+    background-color:#414547;
+    opacity:75%;
 }
 .centered {
     width:500px;
@@ -121,7 +121,7 @@ i:hover {
         width:300px
     }
     .centered {
-        width:205px;
+        width:245px;
         padding-top:275px;
     }
     .box{
@@ -134,13 +134,14 @@ i:hover {
     .width{
         width:40%; 
     }
-    .right{
-        margin-right:px;
-    }
+
     .footer-image{
         width:350px;
         margin-left: 50px;
         margin-bottom:20px;
+    }
+    .bottle{
+        margin-left:100px;
     }
  
 }
