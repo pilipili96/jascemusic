@@ -26,6 +26,10 @@ i.fa-2x {
     background-image: url("background.jpg");
     background-size:auto;
     height: 1000px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .background1{
     background-color: rgb(227,232,234);
@@ -90,6 +94,9 @@ a:hover {
 }
 i:hover { 
     transform: scale(0.95); 
+}
+.footer-line{
+    line-height:1.9;
 }
 
 @media screen and (max-width:915px){
