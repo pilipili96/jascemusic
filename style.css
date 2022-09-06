@@ -121,7 +121,8 @@ i:hover {
         width:300px
     }
     .centered {
-        width:350px;
+        width:205px;
+        padding-top:275px;
     }
     .box{
         margin-left:25px;
@@ -137,8 +138,9 @@ i:hover {
         margin-right:px;
     }
     .footer-image{
-        width:300px;
+        width:350px;
         margin-left: 50px;
         margin-bottom:20px;
     }
+ 
 }
